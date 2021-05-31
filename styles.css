@@ -14,12 +14,25 @@ h1 {
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .jumbotron {
 margin: 0;
 padding: 15px;
-background-image: linear-gradient(to right top, #215f00, #5c7e37, #8d9e69, #bbc09f, #e4e4d9);
-color: black; 
+background-image: linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
+color: black;
+}
+
+.navbar {
+  background-color: #d33460; 
+}
+
+.navbar a {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar-nav {
+  margin-left: auto;
 }
