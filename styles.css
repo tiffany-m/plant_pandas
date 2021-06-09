@@ -26,24 +26,13 @@ h4 {
 }
 
 hr.divider {
-  border-bottom: 5px solid #d33460;
-  opacity: 100%;
-  margin: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    opacity: 100%;
+    height: 5px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#d33460), to(transparent), color-stop(50%, #ffb211));
 }
-
-/* .boxStyleOne {
-   border: solid #d33460;
-   margin: 10px 0;
-}
-
-.boxStyleTwo {
-   border: solid #f2584c;
-   margin: 10px 0;
-}
-
-.row-content {
-  padding: 18px;
-} */
 
 /* Jumbotron */
 .jumbotron {
@@ -82,8 +71,12 @@ hr.divider {
 /* FAQ */
 .accordion-button:not(.collapsed) {
   color: black;
-  background-color: #ff8332;
+  background-color: #ff8432a2;
   box-shadow: none;
+}
+
+.accordion-button {
+  color: none;
 }
 
 /* Footer */
