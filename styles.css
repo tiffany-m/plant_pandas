@@ -1,8 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 root {
   /* scrollbar FireFox */
@@ -11,26 +6,44 @@ root {
 }
 
 h1,
-h2,
+h3,
 h4 {
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
 }
 
-h1 {
-  font-size: 80px;
-}
-h2 {
+h1{
   font-size: 50px;
 }
+
 h4 {
-  font-size: 30px;
+  font-size: 20px;
+}
+
+.section-title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
 }
 
 hr.divider {
   border-bottom: 5px solid #d33460;
   opacity: 100%;
+  margin: 0;
 }
+
+/* .boxStyleOne {
+   border: solid #d33460;
+   margin: 10px 0;
+}
+
+.boxStyleTwo {
+   border: solid #f2584c;
+   margin: 10px 0;
+}
+
+.row-content {
+  padding: 18px;
+} */
 
 /* Jumbotron */
 .jumbotron {
@@ -59,6 +72,18 @@ hr.divider {
 
 .navbar-nav {
   margin-left: auto;
+}
+/* About */
+
+/* Available Pandas */
+
+/* Adopt */
+
+/* FAQ */
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #ff8332;
+  box-shadow: none;
 }
 
 /* Footer */
