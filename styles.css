@@ -5,9 +5,7 @@ root {
   scrollbar-width: auto !important;
 }
 
-h1,
-h3,
-h4 {
+h1, h3, h4 {
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
 }
@@ -26,26 +24,19 @@ h4 {
 }
 
 hr.divider {
-    margin-top: 0;
-    margin-bottom: 15px;
-    opacity: 100%;
-    height: 5px;
-    border: none;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(#d33460), to(transparent), color-stop(50%, #ffb211));
+  margin-top: 0;
+  margin-bottom: 10px;
+  opacity: 100%;
+  height: 7px;
+  border: none;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#d33460), to(transparent), color-stop(50%, #ffb211));
 }
 
 /* Jumbotron */
 .jumbotron {
   margin: 0;
   padding: 15px;
-  background-image: linear-gradient(
-    to right,
-    #a7226e,
-    #d33460,
-    #f2584c,
-    #ff8332,
-    #ffb211
-  );
+  background-image: linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
   color: black;
 }
 
@@ -71,7 +62,7 @@ hr.divider {
 /* FAQ */
 .accordion-button:not(.collapsed) {
   color: black;
-  background-color: #ff8432a2;
+  background-color: #ff9752;
   box-shadow: none;
 }
 
@@ -92,7 +83,6 @@ hr.divider {
   color: black;
   padding: 0;
 }
-
 .contact:hover {
   color: #a7226e;
 }
