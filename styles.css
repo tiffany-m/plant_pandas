@@ -4,6 +4,9 @@ root {
   scrollbar-color: #d33460 white !important;
   scrollbar-width: auto !important;
 }
+html {
+  scroll-padding-top: 80px;
+}
 
 h1, h3, h4 {
   font-family: 'Indie Flower', cursive;
