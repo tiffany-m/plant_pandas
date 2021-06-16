@@ -36,7 +36,7 @@ hr.divider {
   opacity: 100%;
   margin-top: 0;
   margin-bottom: 10px;
-  height: 8px;
+  height: 10px;
   background: linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
 }
 
@@ -86,8 +86,15 @@ ul {
 }
 
 /* Adopt */
-.btn-about-submit:active {
+.btn-adopt-submit:active {
   transform: scale(0.95);
+}
+.btn-adopt-submit:hover {
+  border: 1px solid black;
+}
+.btn-adopt-submit {
+  border: 1px solid black;
+  background-color: #ffb211;
 }
 
 form {
@@ -101,12 +108,15 @@ form {
   background-image: linear-gradient(to right, #ff648e, #ff7577, #ff8c60, #ffa74e, #ffc244);
   box-shadow: none;
 }
-.accordion-button:active {
-  outline: none;
-}
+
 
 .accordion-button:not(.collapsed)::after {
   background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");transform:rotate(-180deg)
+}
+
+a.accordion-button {
+  text-decoration: none;
+  color: black;
 }
 
 .accordion-item {
