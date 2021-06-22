@@ -40,10 +40,6 @@ hr.divider {
   background: linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
 }
 
-.row-content {
-  margin: 12px 5px 0 5px;
-}
-
 /* Jumbotron */
 .jumbotron {
   margin: 0;
@@ -73,6 +69,11 @@ hr.divider {
 /* About */
 img.banner {
   border: 1px solid black;
+}
+
+.COVID {
+  border: 1px solid black; 
+  background-image: linear-gradient(to right, #f8aac0, #ffb4b4, #ffc2aa, #ffd2a5, #ffe3a8);
 }
 
 /* Available Pandas */
