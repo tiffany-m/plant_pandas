@@ -28,9 +28,11 @@ h2 {
   font-size: 50px;
 }
 
-.text-align-j {
-  text-align: justify;
-}
+ @media (min-width: 575px) {
+  .text-align-j {
+      text-align: justify;
+    }
+  }
 
 hr.divider {
   opacity: 100%;
@@ -49,10 +51,10 @@ hr.divider {
 }
 
  @media (max-width: 575px) {
-      .jumbotron-center {
-              text-align: center;
-       } 
-    }
+    .jumbotron-center {
+      text-align: center;
+    } 
+  }
 
 /* NavBar */
 .navbar {
