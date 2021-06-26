@@ -1,10 +1,10 @@
 root {
-  /* scrollbar FireFox */
+  /* scrollbar FireFox -----------------*/
   scrollbar-color: #d33460 white !important;
   scrollbar-width: auto !important;
 }
 
-/* scrollbar Chrome & Safari */
+/* scrollbar Chrome & Safari -----------*/
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -42,14 +42,14 @@ h2 {
   font-size: 50px;
 }
 
-.text-align-j {
+/* .text-align-j {
     text-align: justify;
-}
- /* @media (min-width: 575px) {
+} */
+ @media (min-width: 575px) {
   .text-align-j {
       text-align: justify;
     }
-  } */
+  }
 
 hr.divider {
   opacity: 100%;
@@ -59,7 +59,7 @@ hr.divider {
   background: linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
 }
 
-/* Jumbotron */
+/* Jumbotron ----------------------*/
 .jumbotron {
   margin: 0;
   padding: 15px;
@@ -73,7 +73,7 @@ hr.divider {
   } 
 }
 
-/* NavBar */
+/* NavBar --------------------------*/
 .navbar {
   background-color: #d33460;
 }
@@ -85,7 +85,7 @@ hr.divider {
   margin-left: auto;
 }
 
-/* About */
+/* About --------------------------*/
 img.banner {
   border: 1px solid black;
 }
@@ -99,7 +99,7 @@ img.banner {
   border-image-slice: 1;
 }
 
-/* Available Pandas */
+/* Available Pandas ------------------*/
 .card-body, .card-img-top {
   border: 1px solid black;
 }
@@ -109,7 +109,7 @@ ul {
   padding-left: 0;
 }
 
-/* Adopt */
+/* Adopt -----------------------------*/
 .btn-adopt-submit:active {
   transform: scale(0.95);
 }
@@ -131,7 +131,7 @@ form {
   background-image: linear-gradient(to right, #f8aac0, #ffb4b4, #ffc2aa, #ffd2a5, #ffe3a8);
 }
 
-/* FAQ */
+/* FAQ --------------------------*/
 .accordion-button:not(.collapsed) {
   color: black;
   background-image: linear-gradient(to right, #ff648e, #ff7577, #ff8c60, #ffa74e, #ffc244);
@@ -149,7 +149,7 @@ a.accordion-button {
   border: 1px solid black;
 }
 
-/* Footer */
+/* Footer -----------------------*/
 .site-footer {
   background-image: linear-gradient(to bottom, #f2584c, #ff8332, #ffb211);
   padding: 15px;
@@ -172,15 +172,15 @@ a.accordion-button {
 
 /*Fix My Divs!!! 
 div,img{
-    border: dashed 1px gray;
+    border: dashed 1px orange;
     padding:1px;
 }
 .container {
     border: solid 1px green;
     padding:1px;
 }
-.col, .col-md-2, .col-md-3, .col-md-4{
-    border: solid 1px rgb(4, 0, 255);
+.col {
+    border: solid 1px blue;
     padding:1px;
 }
 .row {
