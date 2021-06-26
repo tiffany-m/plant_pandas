@@ -4,6 +4,13 @@ root {
   scrollbar-width: auto !important;
 }
 
+.scroller {
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+}
+
 /* scrollbar Chrome & Safari -----------*/
 ::-webkit-scrollbar {
   width: 20px;
