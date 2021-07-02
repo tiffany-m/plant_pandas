@@ -39,12 +39,12 @@ h2 {
   font-size: 50px;
 }
 
-/* .text-align-j {
+.text-align-j {
     text-align: justify;
-} */
- @media (min-width: 575px) {
-  .text-align-j {
-      text-align: justify;
+}
+ @media (max-width: 575px) {
+  body {
+    font-size: 14px;
     }
   }
 
