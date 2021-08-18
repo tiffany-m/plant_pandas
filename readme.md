@@ -1,14 +1,11 @@
 # Genki Panda
 A fictitious adoption site for plant pandas.
-
-## Motivation
-Practicing making a single responsive page.
-
 ## Build Status
 Complete
-
-## Tech/Framework used
+## Tech/Framework
 - HTML
 - CSS
 - JavaScript
 - Bootstrap
+## Motivation
+Practicing making a single responsive page.
