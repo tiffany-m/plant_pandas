@@ -33,18 +33,17 @@
 <!--
   Navigation Bar
 -->
-  <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-    <div class="container">
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#plantPandaNavbar">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#plantPandaNavbar" aria-controls="plantPandaNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="plantPandaNavbar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a class="nav-link" href="#about"> About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#featured"><i class="fa fa-paw fa-lg"></i> Featured Pandas</a></li>
-          <li class="nav-item"><a class="nav-link" href="#adopt"><i class="fa fa-home fa-lg"></i> Adopt</a></li>
-          <li class="nav-item"><a class="nav-link" href="#faq"> FAQ</a></li>
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item active"><a class="nav-link" href="#about"> About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#featured"><i class="fa fa-paw fa-lg"></i> Featured Pandas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#adopt"><i class="fa fa-home fa-lg"></i> Adopt</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq"> FAQ</a></li>
         </ul>
       </div>
     </div>
@@ -52,14 +51,14 @@
 <!-- 
   Container 
 -->
-  <div class="container my-3">
+  <div class="container my-2">
 <!--
   About
 -->
-    <img src="img/logo/about.jpg" alt="panda" width="100px">
+    <img src="img/logo/about.jpg" alt="panda" width="100px" id="about">
     <span class="align-bottom section-title">About</span>
     <hr class="divider">
-    <div class="row" id="about">
+    <div class="row">
       <div class="col">
         <img src="img/logo/covid.jpg" width="75" alt="bear in mask">
       </div>
@@ -78,7 +77,7 @@
 <!--
   Featured Pandas
 -->
-    <img src="img/logo/featured.jpg" alt="featured panda" width="100px">
+    <img src="img/logo/featured.jpg" alt="featured panda" width="100px" id="featured">
     <span class="align-bottom section-title">Featured Pandas</span>
     <hr class="divider">
     <div class="row">
@@ -131,7 +130,7 @@
 <!--
   Adopt
 -->
-    <img src="img/logo/adopt.jpg" alt="adopt panda" width="100px">
+    <img src="img/logo/adopt.jpg" alt="adopt panda" width="100px" id="adopt">
     <span class="align-bottom section-title">Adopt</span>
     <hr class="divider">
     <div class="row">
@@ -175,7 +174,7 @@
                 </div>
                 <div class="form-group row">
                     <div class="offset-md-2 col-md-10">
-                        <button type="submit" class="btn btn-warning">Submit</button>
+                        <button type="submit" class="btn btn-about-submit btn-warning">Submit</button>
                     </div>
                 </div>
             </form>
@@ -184,7 +183,7 @@
 <!--
   FAQ
 -->
-    <img src="img/logo/faq.jpg" alt="available panda" width="100px">
+    <img src="img/logo/faq.jpg" alt="available panda" width="100px" id="faq">
     <span class="align-bottom section-title">FAQ</span>
     <hr class="divider">
     <div class="row">
@@ -245,8 +244,7 @@
           <br><strong>Sat & Sun</strong> 10am - 2pm
         </p>
       </div>
-      <div class="col-sm mb-3 text-center">
-        <h5><strong>Social</strong></h5>
+      <div class="col-sm my-lg-auto text-center">
         <a class="btn btn-social-icon btn-instagram" href="#"><i class="fa fa-instagram"></i></a>
         <a class="btn btn-social-icon btn-facebook" href="#"><i class="fa fa-facebook"></i></a>
         <a class="btn btn-social-icon btn-twitter" href="#"><i class="fa fa-twitter"></i></a>
@@ -254,8 +252,8 @@
       </div>
       <div class="col-sm text-center">
         <h5><strong>Contact</strong></h5>
-        <a role="button" class="btn btn-link contact" href="tel:+8675309"><i class="fa fa-phone"></i> 867-5309</a><br>
-        <a role="button" class="btn btn-link contact" href="mailto:info@edibledelights.com"><i class="fa fa-envelope"></i> info@plantpandas.com</a>
+        <a role="button" class="btn contact" href="tel:+8675309"><i class="fa fa-phone"></i> 867-5309</a><br>
+        <a role="button" class="btn contact" href="mailto:info@edibledelights.com"><i class="fa fa-envelope"></i> info@plantpandas.com</a>
       </div>
     </div>
   </div>
