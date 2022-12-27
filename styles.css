@@ -62,6 +62,10 @@ color: black;
   color: #a7226e;
 }
 
+.btn-youtube {
+  background-color: rgba(255, 0, 0, 0.74);
+}
+
 /*Fix My Divs!!! 
 div,img{
     border: dashed 1px gray;
