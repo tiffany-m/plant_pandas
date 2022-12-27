@@ -12,7 +12,7 @@ html {
   max-width: 1140px;
 }
 
-h1, h3, h4 {
+h1, h4 {
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
 }
@@ -28,12 +28,20 @@ h2 {
   font-size: 50px;
 }
 
+.text-align-j {
+  text-align: justify;
+}
+
 hr.divider {
   opacity: 100%;
   margin-top: 0;
   margin-bottom: 10px;
-  height: 7px;
+  height: 8px;
   background: linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
+}
+
+.row-content {
+  margin: 15px;
 }
 
 /* Jumbotron */
@@ -58,12 +66,17 @@ hr.divider {
 
 /* About */
 img.banner {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 /* Available Pandas */
 .card-body, .card-img-top {
   border: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 /* Adopt */
