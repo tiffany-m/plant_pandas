@@ -72,9 +72,14 @@ img.banner {
 }
 
 .COVID {
-  border: 1px solid black; 
-  background-image: linear-gradient(to right, #f8aac0, #ffb4b4, #ffc2aa, #ffd2a5, #ffe3a8);
+  padding: 5px 5px 0 5px;
+  border: 3px solid transparent;
+  -moz-border-image: -moz-linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
+  -webkit-border-image: -webkit-linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
+  border-image: linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
+  border-image-slice: 1;
 }
+
 
 /* Available Pandas */
 .card-body, .card-img-top {
@@ -99,7 +104,12 @@ ul {
 }
 
 form {
-  border: 2px solid black;
+  padding: 5px 5px 0 5px;
+  border: 3px solid transparent;
+  -moz-border-image: -moz-linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
+  -webkit-border-image: -webkit-linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
+  border-image: linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
+  border-image-slice: 1;
   background-image: linear-gradient(to right, #f8aac0, #ffb4b4, #ffc2aa, #ffd2a5, #ffe3a8);
 }
 
