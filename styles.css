@@ -4,6 +4,20 @@ root {
   scrollbar-width: auto !important;
 }
 
+/* scrollbar Chrome & Safari */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d33460;
+  border-radius: 20px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+}
+
 html {
   scroll-padding-top: 60px;
 }
@@ -30,8 +44,7 @@ h2 {
 
 .text-align-j {
     text-align: justify;
-  }
-
+}
  /* @media (min-width: 575px) {
   .text-align-j {
       text-align: justify;
@@ -55,10 +68,10 @@ hr.divider {
 }
 
  @media (max-width: 575px) {
-    .jumbotron-center {
-      text-align: center;
-    } 
-  }
+  .jumbotron-center {
+    text-align: center;
+  } 
+}
 
 /* NavBar */
 .navbar {
@@ -85,7 +98,6 @@ img.banner {
   border-image: linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
   border-image-slice: 1;
 }
-
 
 /* Available Pandas */
 .card-body, .card-img-top {
@@ -125,12 +137,9 @@ form {
   background-image: linear-gradient(to right, #ff648e, #ff7577, #ff8c60, #ffa74e, #ffc244);
   box-shadow: none;
 }
-
-
 .accordion-button:not(.collapsed)::after {
   background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");transform:rotate(-180deg)
 }
-
 a.accordion-button {
   text-decoration: none;
   color: black;
@@ -139,6 +148,7 @@ a.accordion-button {
 .accordion-item {
   border: 1px solid black;
 }
+
 /* Footer */
 .site-footer {
   background-image: linear-gradient(to bottom, #f2584c, #ff8332, #ffb211);
@@ -158,20 +168,6 @@ a.accordion-button {
 
 .btn-youtube {
   background-color: rgb(219, 4, 4);
-}
-
-/* scrollbar Chrome & Safari */
-::-webkit-scrollbar {
-  width: 20px;
-}
-::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #d33460;
-  border-radius: 20px;
-  border: 4px solid transparent;
-  background-clip: content-box;
 }
 
 /*Fix My Divs!!! 
