@@ -37,7 +37,7 @@ hr.divider {
   margin-top: 0;
   margin-bottom: 10px;
   height: 7px;
-  background: linear-gradient(to right, #d33460, #f2584c, #ff8332, #ffb211, white);
+  background: linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
 }
 
 /* Jumbotron */
