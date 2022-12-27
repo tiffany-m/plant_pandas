@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h4 {
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
 }
@@ -17,6 +17,12 @@ h4 {
   font-size: 30px;
 }
 
+hr.divider {
+ border-bottom: 5px solid #d33460;
+ opacity: 100%;
+}
+
+/* Jumbotron */
 .jumbotron {
 margin: 0;
 padding: 15px;
@@ -24,6 +30,7 @@ background-image: linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, 
 color: black;
 }
 
+/* NavBar */
 .navbar {
   background-color: #d33460; 
 }
@@ -36,3 +43,39 @@ color: black;
 .navbar-nav {
   margin-left: auto;
 }
+
+/* Footer */
+.site-footer {
+  background-image: linear-gradient(to bottom, #f2584c, #ff8332, #ffb211, white);
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+}
+
+.contact {
+  text-decoration: none;
+  color: black;
+  padding: 0;
+}
+
+.contact:hover {
+  color: #a7226e;
+}
+
+/*Fix My Divs!!! 
+div,img{
+    border: dashed 1px gray;
+    padding:1px;
+}
+.container {
+    border: solid 1px green;
+    padding:1px;
+}
+.col, .col-md-2, .col-md-3, .col-md-4{
+    border: solid 1px rgb(4, 0, 255);
+    padding:1px;
+}
+.row {
+    border: solid 1px red;
+    padding:1px;
+} */
