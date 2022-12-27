@@ -4,35 +4,46 @@
   padding: 0;
 }
 
-h1, h2, h4 {
+h1,
+h2,
+h4 {
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 80px;
 }
-
+h2 {
+  font-size: 50px;
+}
 h4 {
   font-size: 30px;
 }
 
 hr.divider {
- border-bottom: 5px solid #d33460;
- opacity: 100%;
+  border-bottom: 5px solid #d33460;
+  opacity: 100%;
 }
 
 /* Jumbotron */
 .jumbotron {
-margin: 0;
-padding: 15px;
-background-image: linear-gradient(to right, #a7226e, #d33460, #f2584c, #ff8332, #ffb211);
-color: black;
+  margin: 0;
+  padding: 15px;
+  background-image: linear-gradient(
+    to right,
+    #a7226e,
+    #d33460,
+    #f2584c,
+    #ff8332,
+    #ffb211
+  );
+  color: black;
 }
 
 /* NavBar */
 .navbar {
-  background-color: #d33460; 
+  background-color: #d33460;
 }
 
 .navbar a {
@@ -46,7 +57,7 @@ color: black;
 
 /* Footer */
 .site-footer {
-  background-image: linear-gradient(to bottom, #f2584c, #ff8332, #ffb211, white);
+  background-image: linear-gradient(to bottom, #f2584c, #ff8332, #ffb211);
   padding: 15px;
   position: absolute;
   width: 100%;
@@ -63,7 +74,7 @@ color: black;
 }
 
 .btn-youtube {
-  background-color: rgba(255, 0, 0, 0.74);
+  background-color: rgb(219, 4, 4);
 }
 
 /*Fix My Divs!!! 
