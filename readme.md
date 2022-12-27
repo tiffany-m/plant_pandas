@@ -4,7 +4,7 @@ A fictitious adoption site for plant pandas.
 Complete
 ## Tech/Framework
 - HTML
-- CSS
+- CSS (including web browser engine prefixes - Webkit, Gecko)
 - JavaScript
 - Bootstrap
 ## Motivation
